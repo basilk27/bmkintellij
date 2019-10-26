@@ -16,7 +16,7 @@ public class GitIntellijController {
         GitIntellij gitIntellij = GitIntellij.builder()
                                     .version( "1.8" )
                                     .code( "Java" )
-                                    .location( "local" )
+                                    .location( "boston_next_controller" )
                                     .build();
 
         return new ResponseEntity<>( gitIntellij, HttpStatus.OK );
